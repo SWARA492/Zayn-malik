@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #000;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: #00FFFF;
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-family: 'Texturina', monospace
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: Texturina;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: Texturina;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    margin: none;
+    text-decoration-color: forestgreen;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: none;
+}
+
+p {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+    text-decoration-color: forestgreen;
+}
+
+.Intro {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hi {
+    margin: none;
+}
+
+#img1 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img2 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img3 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img4 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img5 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img6 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img7 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+#img8 {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: none;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    right: 30px;
+    z-index: 10px;
+    cursor: pointer;
+}
+
+.link {
+    float: left;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: 'cursive';
+    font-size: 20px;
+}
+
+.link:hover {
+    background-color: aliceblue
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: fuchsia;
+}
